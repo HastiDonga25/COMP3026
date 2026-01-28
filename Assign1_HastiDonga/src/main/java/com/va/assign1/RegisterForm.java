@@ -7,7 +7,7 @@ public class RegisterForm {
     private String name;
     private String address;
     private String country;
-    private String zipCode;
+    private String zip;
     private String email;
     private String sex;
     private String[] language;
@@ -56,11 +56,11 @@ public class RegisterForm {
     }
 
     public String getZipCode() {
-        return zipCode;
+        return zip;
     }
 
-    public void setZipCode(String zipCode) {
-        this.zipCode = zipCode;
+    public void setZipCode(String zip) {
+        this.zip = zip;
     }
 
     public String getEmail() {
